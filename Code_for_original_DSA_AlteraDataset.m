@@ -64,8 +64,7 @@ nextSeg=0;
       xlabel('Range(m)')
       ylabel('Doppler Frequency (Hz)');  
       colorbar;
-      drawnow; 
-      pause;  
+      drawnow;  
       
       % calculate image entropy and contrast for comparing performance
       IE = ImageEntropy(ISAR_image_linear);
